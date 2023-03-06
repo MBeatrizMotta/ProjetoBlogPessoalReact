@@ -1,5 +1,4 @@
 import React from 'react';
-<<<<<<< HEAD
 import { BrowserRouter as Router,Route,Routes } from 'react-router-dom';
 import Home from './paginas/home/Home';
 import Navbar from './components/estaticos/navbar/Navbar';
@@ -26,18 +25,3 @@ function App() {
 }
 
 export default App;
-=======
-import Home from './paginas/home/Home';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-return (
-  <Home />
-)
-
-}
-  
-
-export default App;
->>>>>>> origin/main
