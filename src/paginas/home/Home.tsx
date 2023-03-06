@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import {Typography, Grid, Button} from '@material-ui/core';
 import {Box} from '@mui/material';
@@ -26,6 +27,20 @@ function Home() {
             </Grid>
         </>
     );
+=======
+import React from "react";
+import './Home.css';
+
+function Home(){
+    return (
+
+    <>
+    <h1 className="titulo">O mundo de Harry Potter</h1>
+    <img src="https://images7.alphacoders.com/119/1192080.jpg" alt="O mundo de Harry Potter" className="img" />
+    </>
+    );
+
+>>>>>>> origin/main
 }
 
 export default Home;
